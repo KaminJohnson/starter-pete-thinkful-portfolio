@@ -16,6 +16,17 @@ h3 {
   text-align: center;
 }
 
+/* Classes */
+.center {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.description {
+  font-size: 14px;
+}
+
 /* Header */
 header {
   text-align: center;
@@ -35,6 +46,10 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+section {
+  padding: 5px;
 }
 
 /* Paragraphs */
